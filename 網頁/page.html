@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML結構</title>
+    <link href="CSS/style.css" rel="stylesheet" media=“all”>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Noto+Serif+TC:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <style>
+        body {
+            margin: 0%;
+            background-color: rgb(128, 133, 139);
+        }
+
+        .p {
+            font-family: 'Noto Sans TC', sans-serif;
+            color: rgb(255, 255, 255);
+            font-size: 20px;
+            padding-left:20px ;
+            font-display: center;
+        }
+        .bg-image {
+  background-image: url(img/2bg2.jpg);  /*自己的電腦圖片資料夾位置*/
+  position: absolute;  /*絕對位置*/
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-position: center;
+  background-size: cover;
+  z-index: -999; /*設定圖片層級*/}
+  #main-banner {
+  height: 100vh;  /*vh是view height，指螢幕可視範圍高度的百分比*/
+}
+.bg-parallax {
+  background-attachment: fixed;
+}
+.bg-image {
+  background-image: url(img/2bg2.jpg);  /*自己的電腦圖片資料夾位置*/
+  position: absolute;  /*絕對位置*/
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-position: center;
+  background-size: cover;
+  z-index: -999; /*設定圖片層級*/
+}
+#main-banner {
+  height: 100vh;  /*vh是view height，指螢幕可視範圍高度的百分比*/
+}
+.bg-parallax {
+  background-attachment: fixed;
+}
+.navbar {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin: auto;
+  z-index: 50;
+}
+#main-banner {
+  height: 100vh;  /*vh是view height，指螢幕可視範圍高度的百分比*/
+}
+.bg-parallax {
+  background-attachment: fixed;
+}
+.footer {
+    background-color: #e6e6e6;
+    padding: 10px ;
+    position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+    
+}
+
+.footer_logo img {
+    max-width: 100px;
+}
+
+.footer_address ul {
+    list-style-type: none;
+    font-size: 14px;
+    font-family: 'Noto Sans TC', sans-serif;
+    line-height: 1.2rem;
+    color: #5e5e5e;
+    text-align: center;
+}
+
+.footer_copyright {
+    font-size: 10px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navber navbar-dark bg-dark navbar-expand-md">
+                <div class="container">
+           
+                <a href="#" class="navbar-brand">
+                    <img src="img/nike.png" alt="LOGO" />
+                </a>
+          
+                <div>
+                    <ul class="navbar-nav">
+                        <span class="p"><li><a href="#" class="nav-link">首頁</a></li></span>
+                        <span class="p"><li><a href="#" class="nav-link">產品</a></li></span>
+                        <span class="p"><li><a href="#" class="nav-link">男鞋</a></li></span>
+                        <span class="p"><li><a href="#" class="nav-link">女鞋</a></li></span>
+                        <span class="p"><li><a href="#" class="nav-link">休閒</a></li></span>
+                        <span class="p"><li><a href="#" class="nav-link">男裝</a></li></span>
+                        <span class="p"><li><a href="#" class="nav-link">女裝</a></li></span>
+                        <span class="p"><li><a href="#" class="nav-link">童裝</a></li></span>
+                        <span class="p"><li><a href="#" class="nav-link">特價</a></li></span>
+                        
+                    </ul>
+                   
+                    </div>              
+        </nav>
+    </header>
+    
+    <section>
+        <div class="container">
+        <div class="bg-image bg-parallax main-banner"></div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+      <p>dddddddddddddldfkgfdldfgijgjriogmvfdgemgiomgdfdfl;df;lgfd
+      </p>
+    </div>
+    </section>
+    <!-- 頁腳 -->
+    <footer class="footer">
+        <div class="container">
+        <div class="footer_address ul">
+                    <ul>
+                        <li>專 線：04-33556688</li>
+                        <li>服務時間：週一至週五 9:00 ~ 18:00</li>
+                        <li>服務信箱：service@gmail.com</li>
+                    </ul>
+            </div>
+          </div>
+            <div class="row footer_copyright justify-content-center">
+                <p>COPYRIGHT © 2019 halla malmo .ALL RIGHTS RESERVED.</p>
+            </div>
+        </section>
+    </footer>
+
+
+    
+
+</body>
+
+</html>
